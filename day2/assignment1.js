@@ -2,6 +2,7 @@
  * Created by PrasanaA on 07/01/16.
  */
 
+//Program one.
 //Type One
 var mathCalculation  = function(firstNumber, secondNumber ){
     function validateNumbers(){
@@ -97,6 +98,7 @@ console.log(obj.divide());
 console.log(obj.multiply());
 
 
+//Program Two.
 //Taking Multiple Arguments
 var multipleCalculation = function(){
     this.argument = arguments[0];
@@ -149,17 +151,5 @@ alert(objCalculation.add());
 alert(objCalculation.multiply());
 
 
-for(var i = 1; i <= 100; i++){
-    console.log(i);
-}
 
-var w = 1
-while(w <= 100){
-    console.log(w);
-    w++;
-}
-var dw = 1;
-do{
-    console.log(dw);
-    dw++;
-}while(w <= 100);
+

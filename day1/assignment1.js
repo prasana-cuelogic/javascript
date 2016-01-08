@@ -1,6 +1,8 @@
 /**
  * Created by Prasana A on 06/01/16.
  */
+
+//Variables & different way to declare those;
 var declareVariables = function(){
     var numberVar = 5; //or
     var numberVar = new Number(5);
@@ -21,6 +23,7 @@ var declareVariables = function(){
 
 }();
 
+//Delete and add values in array.
 var myFunctions = function(){
     var arrVariable = [];
         return {
@@ -47,7 +50,6 @@ booleanValue =  (booleanValue == false)?true: false;
 
 var newString = "Hello";
 newString += " World";
-
 
 //Create Object
 var objectVariable = {};
