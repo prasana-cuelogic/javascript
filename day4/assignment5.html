@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+    <ul>
+        <li> This is first child</li>
+        <li>This is second child</li>
+        <li>This is third child</li>
+        <li>This is fourth child</li>
+        <li>This is fifth child</li>
+    </ul>
+</div>
+<script type="javascript">
+    var node = document.querySelectorAll('ul li');
+    var elements = node.length;
+    for(var i = 0; i < elements; i++) {
+        node[i].addEventListener('click',function(){ console.log(this.innerHTML);});
+        //alert(node[i].innerHTML);
+    }
+</script>
+</body>
+</html>
